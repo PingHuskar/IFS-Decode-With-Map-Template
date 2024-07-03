@@ -76,20 +76,20 @@ channel.bind("update-answer", function (data) {
   document.getElementById(`i9`).innerText = res.i9;
   document.getElementById(`i10`).innerText = res.i10;
   document.getElementById(`i11`).innerText = res.i11;
-  document.getElementById(`dleft`).innerText = 
-  (res.i1 === defaultValues.char ? 1 : 0)+
-  (res.i2 === defaultValues.char ? 1 : 0)+
-  (res.i3 === defaultValues.char ? 1 : 0)+
-  (res.i4 === defaultValues.number ? 1 : 0)+
-  (res.i5 === defaultValues.number ? 1 : 0)+
-  (res.i6 === defaultValues.keyword ? 1 : 0)+
-  (res.i7 === defaultValues.number ? 1 : 0)+
-  (res.i8 === defaultValues.number ? 1 : 0)+
-  (res.i9 === defaultValues.number ? 1 : 0)+
-  (res.i10 === defaultValues.char ? 1 : 0)+
-  (res.i11 === defaultValues.char ? 1 : 0)+
-  0
-  ;
+  document.getElementById(`dleft`).innerText = res.dleft
+  // (res.i1 === defaultValues.char ? 1 : 0)+
+  // (res.i2 === defaultValues.char ? 1 : 0)+
+  // (res.i3 === defaultValues.char ? 1 : 0)+
+  // (res.i4 === defaultValues.number ? 1 : 0)+
+  // (res.i5 === defaultValues.number ? 1 : 0)+
+  // (res.i6 === defaultValues.keyword ? 1 : 0)+
+  // (res.i7 === defaultValues.number ? 1 : 0)+
+  // (res.i8 === defaultValues.number ? 1 : 0)+
+  // (res.i9 === defaultValues.number ? 1 : 0)+
+  // (res.i10 === defaultValues.char ? 1 : 0)+
+  // (res.i11 === defaultValues.char ? 1 : 0)+
+  // 0
+  // ;
   const portals = res.portals;
   console.log(portals);
   let c = 1
